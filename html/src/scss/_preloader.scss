@@ -1,0 +1,14 @@
+/* Preloader CSS */
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: $primary;
+    @include display-flex(flex);
+    @include align-items-center;
+    @include justify-content-center;
+    overflow: hidden;
+}
